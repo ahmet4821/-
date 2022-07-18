@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Mobile Styles */
+  @media screen and (max-width: 530px) {
+    /*--------------------------------------------------------------------------------*/
+.bilgi-kutusu{
+    background-color: #48e945;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+#çalışma{
+    margin: 10px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    animation-name: paragraf;
+    position: relative;
+    font-weight: bolder;
+    animation-duration: 30s; /*Bir animasyon tamamlama süresi*/
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes paragraf{
+    0% {left: 0;}
+    100% {left: 72%;}
+    
+    
+}
+
+
+/*--------------------------------------------------------------------------------*/
+.header-container{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 4;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #1A1A2E;
+}
+li{
+    float: left;
+    transition: height 2s;
+    
+}
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    
+
+}
+li a:hover{
+    background-color: #f6f6f6;
+    color: #efeded;
+    border-radius: 5px;
+    color: #16213E;
+}
+/*-------------------------------KALSIN-------------------------------------------------*/
+.ontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 900px;
+}
+/*-------------------------------KALSIN-------------------------------------------------*/
+.content{
+
+    background-color: #16213E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+.item3{
+    margin: 20px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+.içerikparagraf{
+    font-family: 'Anton', sans-serif;
+    
+    color: #efeded;
+    z-index: 3;
+    position: relative;
+    left: 50px;
+    
+}#berber{
+    width: 85%;
+    height: auto;
+    border: none;
+    z-index: 1;
+}
+
+/*--------------------------------------------------------------------------------*/
+    img{
+        object-fit: contain;
+        width: 90%;
+    }
+    .item4{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+    .content2-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 530px;
+    }
+
+    .content2,.content4,.content6,.content8,.content10{
+        background-color: #0F3460;
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        height: 800px;
+    }
+    .content3,.content5,.content7,.content9{
+        background-color: #f6f2f3;
+        display: flex;
+        justify-content: center;
+        color: #000000;
+    
+    }
+    #content2{
+        font-family: 'Playfair Display', serif;
+        font-size: 60px;
+        
+    
+    }
+ 
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Tablet Styles */
+  @media  screen and (min-width: 531px) and (max-width: 1021px) {
+    /*--------------------------------------------------------------------------------*/
+.bilgi-kutusu{
+    background-color: #1330d5;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+#çalışma{
+    margin: 10px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    animation-name: paragraf;
+    position: relative;
+    font-weight: bolder;
+    animation-duration: 40s; /*Bir animasyon tamamlama süresi*/
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes paragraf{
+    0% {left: 0;}
+    100% {left: 72%;}
+    
+    
+}
+
+
+/*--------------------------------------------------------------------------------*/
+.header-container{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 4;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+li{
+    float: left;
+    transition: height 2s;
+    
+}
+li a{
+    display: block;
+    color: rgb(10, 9, 9);
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+
+}
+li a:hover{
+    background-color: #dfdfdf;
+    color: #0f0f0f;
+    border-radius: 5px;
+}
+/*-------------------------------KALSIN-------------------------------------------------*/
+.ontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 900px;
+}
+/*-------------------------------KALSIN-------------------------------------------------*/
+.content{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 750px;
+}
+.item3{
+    margin: 20px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+.içerikparagraf{
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    color: #0f0f0f;
+    z-index: 3;
+    position: relative;
+    left: 50px;
+    top: -80px;
+    
+}#berber{
+    width: 85%;
+    height: auto;
+    border: none;
+    z-index: 1;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+img{
+    width: 100%;
+    height: 90%;
+}
+.item4{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#üç,#dört,#beş,#altı{
+    width: 85%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.content2,.content4,.content6,.content8,.content10{
+    background-color: #0F3460;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.content3,.content5,.content7,.content9{
+    background-color: #f6f2f3;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+
+}
+#content2{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    
+
+}
+.düz{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Desktop Styles */
+  @media screen and (min-width: 1021px) {
+    /*--------------------------------------------------------------------------------*/
+.bilgi-kutusu{
+    background-color: #45e96b;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+#çalışma{
+    margin: 10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    animation-name: paragraf;
+    position: relative;
+    font-weight: bolder;
+    animation-duration: 40s; /*Bir animasyon tamamlama süresi*/
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes paragraf{
+    0% {left: 0;}
+    100% {left: 72%;}
+    
+    
+}
+
+
+/*--------------------------------------------------------------------------------*/
+.header-container{
+    top: 0;
+    z-index: 4;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+li{
+    float: left;
+    transition: height 2s;
+    
+}
+li a{
+    display: block;
+    color: rgb(13, 12, 12);
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+
+}
+li a:hover{
+    background-color: #ffffff;
+    color: #0b0b0b;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+/*-------------------------------KALSIN-------------------------------------------------*/
+.ontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 900px;
+}
+/*-------------------------------KALSIN-------------------------------------------------*/
+.content{
+
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 850px;
+}
+.item3{
+    margin: 20px;
+    position: static;
+}
+.içerikparagraf{
+    font-family: 'Anton', sans-serif;
+    font-size: 85px;
+    color: #0a0a0a;
+    z-index: 3;
+    
+    
+}#berber{
+    width: 50%;
+    height: auto;
+    border: none;
+    z-index: 1;
+}
+
+/*--------------------------------------------------------------------------------*/
+#Fotoğraflar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    flex-wrap: wrap;
+    background-color: #16213E;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    position: static;
+    
+}.item4:hover{
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    
+}
+}
